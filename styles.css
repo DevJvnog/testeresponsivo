@@ -532,7 +532,10 @@ footer{
 
   #section-1{
     height: 1800px;
-    max-width: 400px;
+  }
+
+  #section-1 img{
+    max-width: 300px;
   }
   .content {
     grid-template-columns: 1fr;
