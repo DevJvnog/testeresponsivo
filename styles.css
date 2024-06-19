@@ -544,6 +544,7 @@ footer{
   .text-content {
     padding-top: 20px;
     margin-left: 10px;
+    max-width: 360px;
   }
 
   .text-content h1 {
