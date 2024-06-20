@@ -11,7 +11,10 @@ padding: 0;
 background-color: #fff;
 color: #333;
 }
-
+button a {
+  text-decoration: none;
+  color: inherit;
+}
 #section-1 {
 margin: 0 auto;
 width: 100%;
@@ -25,7 +28,7 @@ background-position: center;
 }
 
 .section h1, .section h2 {
-color: #FFFFFF;
+color: #FFF;
 font-family: 'Montserrat', sans-serif;
 }
 
@@ -96,10 +99,10 @@ margin-left: 50px;
 }
 
 .image img {
-  border: 0; /* Remove qualquer borda */
-  margin: 0; /* Remove qualquer margem */
-  padding: 0; /* Remove qualquer preenchimento */
-  display: block; /* Remove o espaço em torno de imagens inline */
+  border: 0; 
+  margin: 0; 
+  padding: 0; 
+  display: block; 
 }
 
 .cta-button {
@@ -162,11 +165,14 @@ background: #ff0000;
 }
 
 #section-2 h2{
-display: flex;
+display: block;
 font-size: 18px;
 justify-content: center;
 max-width: 740px;
+text-align: center;
+align-items: center;
 margin: 0 auto;
+color: #FFF;
 }
 
 .comparison {
@@ -565,9 +571,8 @@ footer{
   }
 
   .etiquetaPrice {
-    flex-direction: row;
-    gap: 10px;
-    align-items: center;
+    display: flex;
+
   }
 
   .cta-button {
@@ -599,7 +604,7 @@ footer{
     flex-direction: column;
     gap: 20px;
     max-width: 330px;
-    padding-right: 30px;
+   
   }
 
   .comparison .card {
