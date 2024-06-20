@@ -543,7 +543,10 @@ footer{
   #section-1{
     height: 1700px;
   }
-
+button a {
+  text-decoration: none;
+  color: inherit;
+}
   #section-1 img{
     padding-top: 20px;
     max-width: 400px;
@@ -594,12 +597,16 @@ footer{
     height: 790px;
   }
 
-  #section-2 h2{
-    margin-left: 20px;
-    margin-right: 20px;
-
-  }
-
+#section-2 h2{
+display: block;
+font-size: 18px;
+justify-content: center;
+max-width: 740px;
+text-align: center;
+align-items: center;
+margin: 0 auto;
+color: #FFF;
+}
   .comparison {
     flex-direction: column;
     gap: 20px;
@@ -678,6 +685,11 @@ footer{
     margin: auto;
     
   }
+
+#section-5 h2{
+  text-align: center;
+  padding-top: 20px;
+}
 
   
 
