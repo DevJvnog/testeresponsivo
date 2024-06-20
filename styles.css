@@ -535,12 +535,13 @@ footer{
   }
 
   #section-1 img{
+    padding-top: 20px;
     max-width: 400px;
   }
   .content {
     padding-top: 50px;
     grid-template-columns: 1fr;
-    margin-left: 10px;
+    margin-left: 20px;
   }
   .text-content {
     padding-top: 50px;
@@ -581,12 +582,13 @@ footer{
   }
 
   #section-2{
-    height: 760px;
+    height: 790px;
   }
 
   #section-2 h2{
-    margin: 0 auto;
-    
+    margin-left: 20px;
+    margin-right: 20px;
+
   }
 
   .comparison {
@@ -645,7 +647,8 @@ footer{
   }
 
   #section-4 img{
-    max-width: 400px;
+    align-items: center;
+    max-width: 300px;
   }
 
   .contact-form {
@@ -662,10 +665,12 @@ footer{
   }
 
   #section-5{
-    height: 660px;
+    height: 900px;
     margin: auto;
     
   }
+
+  
 
   footer {
     flex-direction: column;
