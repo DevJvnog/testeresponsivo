@@ -238,6 +238,10 @@ padding: 4px;
 
 }
 
+.buttonmidle button:hover{
+  background-color: #ff0000;
+}
+
 
 #section-3 .title{
   color: #e60000;
