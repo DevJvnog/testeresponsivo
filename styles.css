@@ -531,18 +531,19 @@ footer{
 @media (max-width: 420px) {
 
   #section-1{
-    height: 1800px;
+    height: 1700px;
   }
 
   #section-1 img{
-    max-width: 300px;
+    max-width: 400px;
   }
   .content {
+    padding-top: 50px;
     grid-template-columns: 1fr;
     margin-left: 10px;
   }
   .text-content {
-    padding-top: 20px;
+    padding-top: 50px;
     margin-left: 10px;
     max-width: 360px;
   }
@@ -559,7 +560,7 @@ footer{
   }
 
   .etiquetaPrice {
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
     align-items: center;
   }
@@ -580,7 +581,12 @@ footer{
   }
 
   #section-2{
-    height: 750px;
+    height: 760px;
+  }
+
+  #section-2 h2{
+    margin: 0 auto;
+    
   }
 
   .comparison {
@@ -599,7 +605,7 @@ footer{
   }
 
   #section-3{
-    padding-top: 30px;
+    padding-top: 40px;
   }
 
   .product-info {
